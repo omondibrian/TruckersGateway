@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  truckersgateway:
+    image: truckersgateway
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 4010:4010

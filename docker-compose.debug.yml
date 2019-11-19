@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  truckersgateway:
+    image: truckersgateway
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - 4010:4010
+      - 9229:9229
+    command: node --inspect=0.0.0.0:9229 gateway.js
