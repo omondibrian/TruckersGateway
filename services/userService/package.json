@@ -21,7 +21,7 @@
     "start": "node  lib/index.js"
   },
   "dependencies": {
-    "@apollo/federation": "^0.10.2",
+    "@apollo/federation": "^0.17.0",
     "@hapi/joi": "^16.1.7",
     "apollo-server": "^2.9.9",
     "bcryptjs": "^2.4.3",
