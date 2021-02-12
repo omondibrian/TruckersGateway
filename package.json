@@ -14,7 +14,7 @@
   "devDependencies": {
     "concurrently": "latest",
     "lerna": "latest",
-    "mocha": "^6.2.2",
+    "mocha": "^8.3.0",
     "nodemon": "latest"
   },
   "dependencies": {
