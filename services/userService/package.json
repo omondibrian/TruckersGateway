@@ -27,7 +27,7 @@
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "graphql": "^14.5.8",
-    "graphql-upload": "^8.1.0",
+    "graphql-upload": "^12.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.10"
   }
